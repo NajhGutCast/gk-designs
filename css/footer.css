@@ -1,0 +1,86 @@
+ /** Footer **/
+ .footer{
+    width: 100%;
+}
+.footer .footer-text{
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: max-content;
+    background:rgb(29, 27, 27);
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid #fff;
+}
+.footer .footer-text p{
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+}
+.footer .footer-text p a {
+    text-decoration: none;
+    color: var(--red);
+}
+
+@media only screen and (max-width:590px){
+    .footer .footer-text{width: 100%; padding: 0px 30px;}
+    .footer .footer-text p{font-size: 17px;}
+}
+
+footer hr {
+    margin: 20px auto;
+    width: 250px;
+    border: none;
+    height: 1px;
+    background-color: #595959;
+}
+
+footer ul {
+    list-style: none;
+    width: fit-content;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+footer ul li a {
+    width: 62.5px;
+    padding: 20px;
+    margin: 0 10px 0;
+}
+
+footer ul li a:hover {
+    background-color: #ff2e63;
+    border-radius: 10px;
+    box-shadow: 0 0 25px #ff2e63bb;
+}
+@media (max-width: 960px) {
+    footer ul li a {
+        margin: 0 4px 0;
+    }
+}
+@media (max-width: 600px) {
+    footer ul li a {
+        margin: 0 1px 0;
+    }
+}
+@media (max-width: 540px) {
+    footer ul li a {
+        margin: 0;
+    }
+}
+footer ul li .facebook {content: url(../icons/facebook.svg);}
+footer ul li .facebook:hover {content: url(../icons/facebook_hover.svg);}
+
+footer ul li .youtube {content: url(../icons/youtube.svg);}
+footer ul li .youtube:hover {content: url(../icons/youtube_hover.svg);}
+
+footer ul li .instagram {content: url(../icons/instagram.svg);}
+footer ul li .instagram:hover {content: url(../icons/instagram_hover.svg);}
+
+footer ul li .linkedin {content: url(../icons/linkedin.svg);}
+footer ul li .linkedin:hover {content: url(../icons/linkedin_hover.svg);}
+
+footer ul li .whatsapp {content: url(../icons/whatsapp.svg);}
+footer ul li .whatsapp:hover {content: url(../icons/whatsapp_hover.svg);}

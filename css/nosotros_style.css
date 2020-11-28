@@ -1,0 +1,125 @@
+main .about-us {
+    display: flex;
+    background-image: url(../img/AboutUs.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+main .about-us div {
+    width: 50%;
+    height: max-content;
+    align-content: center;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    top: 50vh;
+    transform: translateY(-22.5vh);
+    background-color: #f5f3f3bb;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+main .about-us div h1 {
+    margin: 20px 0;
+    color: var(--red);
+}
+main .about-us div p {
+    margin: 20px 0;
+    color: var(--black);
+}
+@media (max-width: 1080px) {
+    main .about-us div {
+        width: 75%;
+    }
+}
+@media (max-width: 960px) {
+    main .about-us div {
+        width: 80%;
+    }
+}
+@media (max-width: 840px) {
+    main .about-us div {
+        width: 85%;
+    }
+}
+@media (max-width: 720px) {
+    main .about-us div {
+        width: 90%;
+    }
+}
+@media (max-width: 600px) {
+    main .about-us div {
+        width: 95%;
+    }
+}
+
+/* ¿Qué ofrecemos?*/
+main .what-we-offer {
+    background-color: #fff;
+}
+main .what-we-offer h1 {
+    margin: 40px auto;
+    width: max-content;
+    border-bottom: 2px solid;
+    color: var(--red);
+}
+main .what-we-offer div{
+    width: fit-content;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+main .what-we-offer div div {
+    width: 50%;
+    max-width: 500px;
+    padding: 20px;
+}
+main .what-we-offer div div img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #00000077;
+}
+main .what-we-offer div div h2, main .what-we-offer div div p {
+    width: 100%;
+    text-align: center;
+    margin: 20px 0 0;
+    color: var(--black);
+}
+main .what-we-offer div div button {
+    width: max-content;
+    padding: 10px 20px;
+    font-size: medium;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid var(--red);
+    background-color: var(--red);
+    color: #fff;
+    cursor: pointer;
+    margin: 20px auto;
+    transition: 0.3s;
+}
+main .what-we-offer div div button:hover {
+    background-color: #fff;
+    color: var(--black);
+}
+main .what-we-offer div hr {
+    display: none;
+}
+@media (max-width: 960px) {
+    main .what-we-offer div div {
+        width: 100%;
+        max-width: 500px;
+        padding: 20px;
+    }
+    main .what-we-offer div hr {
+        display: contents;
+        width: 75%;
+        background-color: var(--black);
+        border: 1px solid var(--black);
+        margin: 10px;
+    }
+}

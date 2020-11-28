@@ -1,0 +1,158 @@
+/* Contacto */
+main {
+    padding: 20px;
+}
+@media (max-width: 960px) {
+    main {
+        padding: 10px;
+    }
+}
+@media (max-width: 600px) {
+    main {
+        padding: 5px;
+    }
+}
+.contact {
+    font-family: 'Red Hat Text', sans-serif;
+    max-width: 1200px;
+    margin: auto;
+}
+.contact h1 {
+    width: max-content;
+    margin: 0 auto 20px;
+    color: var(--red);
+}
+.contact .contact-info {
+    width: 80%;
+    text-align: center;
+    margin: 20px auto;
+    color: var(--black);
+}
+.contact .info {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 40px 0;
+}
+.contact .info .personal-info {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.contact .info .correos, .contact .info .telefonos {
+    width: calc(100% - 5px);
+    margin-right: 5px;
+    height: max-content;
+    background-color: #f9f6f2;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 0.5px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.contact .info .correos h2, .contact .info .telefonos h2, .contact .info .formulario h2{
+    margin: 20px;
+    color: var(--red);
+    background-color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.contact .info .correos p, .contact .info .telefonos p{
+    margin: 0 20px 10px;
+    color: var(--black);
+}
+.contact .info .formulario {
+    width: calc(50% - 5px);
+    height: max-content;
+    border: none;
+    background-color: #f9f6f2;
+    color: var(--red);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.contact .info .formulario input, .contact .info .formulario textarea {
+    font-size: medium;
+    outline: none;
+    color: var(--black);
+    resize: none;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+}
+.contact .info .formulario input:focus, .contact .info .formulario textarea:focus {
+    box-shadow: 0 0 5px var(--red);
+}
+.contact .info .formulario .fill {
+    width: calc(100% - 40px);
+    margin: 5px 20px;
+    padding: 10px;
+}
+.contact .info .formulario .half {
+    width: calc(50% - 42.5px);
+    margin: 10px 20px;
+    padding: 10px;
+}
+.contact .info .formulario .submit {
+    width: max-content;
+    padding: 10px 20px;
+    margin: 20px 0px 40px;
+    background-color: var(--red);
+    transition: 0.3s;
+    cursor: pointer;
+    border: none;
+    color: #fff;
+}
+.contact .info .formulario .submit:hover {
+    background-color: var(--red);
+    box-shadow: 0 0 25px var(--red);
+}
+::placeholder {
+    color: #848484;
+    font-family: 'Red Hat Text', sans-serif;
+}
+@media (max-width: 1200px) {
+    .contact .info .personal-info {
+        width: 100%;
+    }
+    .contact .info .personal-info .correos {
+        width: calc(50% - 5px);
+    }
+    .contact .info .personal-info .telefonos {
+        width: calc(50% - 5px);
+    }
+    .contact .info .formulario {
+        width: 100%;
+    }
+}
+@media (max-width: 960px) {
+    .contact .info .formulario .half {
+        width: calc(100% - 62.5px);
+    }
+    .contact .contact-info {
+        width: 90%;
+    }
+}
+@media (max-width: 840px) {
+    .contact .contact-info {
+        width: 95%;
+    }
+    .contact .info .personal-info .correos {
+        width: 100%;
+    }
+    .contact .info .personal-info .telefonos {
+        width: 100%;
+    }
+}
+@media (max-width: 540px) {
+    .contact .info .formulario .submit {
+        width: calc(100% - 40px);
+    }
+}
+/* Contacto */
+
+
+
+/* tu no me dejas escribir "pes" 
+ya escribiste pes mis amor */

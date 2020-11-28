@@ -1,0 +1,48 @@
+::placeholder {
+    color: #848484;
+}
+
+form {
+    margin: 50px 0;
+    padding: 50px 25px;
+    background-color: #f9f6f2;
+    border: 2px solid #f9f6f288;
+    border-radius: 10px;
+    width: min-content;
+    position: relative;
+    box-shadow: inset 0 0 10px #f9f6f288;
+}
+
+form .login-text {
+    margin: 10px 0;
+}
+
+input {
+    padding: 5px 10px;
+    outline: none;
+    font-size: large;
+    border-radius: 5px;
+    border: 2px solid;
+    color: var(--black);
+}
+
+input[type="text"], input[type="password"] {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-color: #f9f6f288;
+    box-shadow: 0 0 10px #f9f6f288;
+}
+
+input[type="submit"]{
+    margin: 5px;
+    border-color: #ff2e63;
+    background-color: #ff2e63;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+input[type="submit"]:hover{
+    border-color: #ff2e6388;
+    background-color: #ff2e6388;
+}
